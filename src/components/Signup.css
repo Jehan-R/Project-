@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://wallpaperbat.com/img/1301213-this-is-an-animation-showing-a-grocery-store-background-3d-illustration-of-a-supermarket-hd-photography-photo-background-image-and-wallpaper-for-free-download.png);
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    background-repeat: no-repeat; /* Prevents repeating of the image */
+}
+
+.login-container {
+    width: 320px; /* Slightly wider for better spacing */
+    margin: 100px auto;
+    padding: 25px; /* Increased padding for better visual spacing */
+    background: linear-gradient(135deg, #f7f7f7, #ffffff);
+    border-radius: 12px; /* Increased radius for smoother edges */
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow for a more modern look */
+    text-align: center;
+}
+.login-container h2 {
+    margin-bottom: 25px; /* Increased margin for better spacing */
+    color: #444; /* Slightly darker color for better readability */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    letter-spacing: 1.2px; /* Subtle spacing between letters */
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.login-container input {
+    width: 100%;
+    padding: 12px; /* Increased padding for a more spacious feel */
+    margin: 12px 0;
+    border: 1px solid #ccc; /* Slightly darker border */
+    border-radius: 6px; /* Smoother edges */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Consistent typography */
+    font-size: 14px; /* Adjusted font size */
+   
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.header{
+    padding-left: 40px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
